@@ -74,7 +74,7 @@ export default function App() {
     </main>
   );
 }
-
+```
 ---
 
 ```//src/main.jsx
@@ -83,7 +83,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(<App />);
-
+```
 ---
 
 ```<!-- public/index.html -->
@@ -98,7 +98,7 @@ createRoot(document.getElementById("root")).render(<App />);
     <div id="root"></div>
   </body>
 </html>
-
+```
 ---
 
 ## 3) How React apps efficiently update the browser DOM
@@ -121,7 +121,7 @@ createRoot(document.getElementById("root")).render(<App />);
 
 ---
 
-
+```
 function Todos() {
   const [items, setItems] = React.useState(["Aprender React", "Practicar JSX"]);
 
@@ -140,7 +140,7 @@ function Todos() {
     </>
   );
 }
-
+```
 ---
 
 ## 4) Major benefits of using React for web development
