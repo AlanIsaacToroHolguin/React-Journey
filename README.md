@@ -73,19 +73,20 @@ export default function App() {
       <button onClick={() => setCount((c) => c + 1)}>Incrementar</button>
     </main>
   );
-}```
+}
 
+---
 
-
-
-// src/main.jsx
+```//src/main.jsx
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(<App />);
 
-<!-- public/index.html -->
+---
+
+```<!-- public/index.html -->
 <!doctype html>
 <html lang="es">
   <head>
@@ -97,6 +98,8 @@ createRoot(document.getElementById("root")).render(<App />);
     <div id="root"></div>
   </body>
 </html>
+
+---
 
 ## 3) How React apps efficiently update the browser DOM
 ### ¿Cómo actualiza React el DOM del navegador de forma eficiente?
