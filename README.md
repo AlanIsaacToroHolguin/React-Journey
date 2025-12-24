@@ -73,7 +73,7 @@ export default function App() {
       <button onClick={() => setCount((c) => c + 1)}>Incrementar</button>
     </main>
   );
-}
+}```
 
 
 
