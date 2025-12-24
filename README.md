@@ -39,6 +39,8 @@ React es una librería de JavaScript para construir interfaces de usuario (UIs) 
 ### ¿Cómo luce una app típica en React?
 
 **Estructura recomendada de archivos:**
+
+```
 my-react-app/
 ├─ public/
 │  └─ index.html                 # 
@@ -57,6 +59,7 @@ my-react-app/
 ├─ .eslintrc.cjs                 # Linting
 ├─ package.json
 └─ README.md
+```
 
 **Ejemplo mínimo:**
 
@@ -165,4 +168,11 @@ function Todos() {
 
 ---
 
+
+## React Component Tree & UI Interaction
+
+React organiza la UI como un árbol de componentes, donde cada nodo representa un componente (App, Button, Header, etc.), y las relaciones padre-hijo permiten componer la interfaz de forma modular.
+
+![React UI as a Tree diagram](https://react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fpreserving el árbol nuevo con el anterior (**diffing**).  
+3. Aplica cambios mínimos al **DOM real** (**reconciliación**) para una UI rápida y eficiente.
 
