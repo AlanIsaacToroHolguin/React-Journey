@@ -171,8 +171,8 @@ function Todos() {
 
 ## React Component Tree & UI Interaction
 
-React organiza la UI como un árbol de componentes, donde cada nodo representa un componente (App, Button, Header, etc.), y las relaciones padre-hijo permiten componer la interfaz de forma modular.
+React organiza la UI como un árbol de componentes, donde cada nodo representa un componente (App, Button, Header, etc.), y las relaciones padre-hijo permiten componer la interfaz de forma modular.Se aplican cambios mínimos al **DOM real** (**reconciliación**) para una UI rápida y eficiente.
+https://react.dev/learn/understanding-your-ui-as-a-tree
+![React UI as a Tree diagram](https://react.dev/learn/understanding-your-ui-as-a-tree) 
 
-![React UI as a Tree diagram](https://react.dev/_next/image?url=%2Fimages%2Fdocs%2Fdiagrams%2Fpreserving el árbol nuevo con el anterior (**diffing**).  
-3. Aplica cambios mínimos al **DOM real** (**reconciliación**) para una UI rápida y eficiente.
 
